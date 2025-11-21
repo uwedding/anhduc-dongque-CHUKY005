@@ -1,4 +1,3 @@
-/* Há»™p thoáº¡i xÃ¡c nháº­n xÃ³a chá»¯ kÃ½ */
 #deleteDialog {
   position: fixed;
   top: 50%;
@@ -19,10 +18,12 @@
   font-size: 20px;
   text-align: center;
 }
+
 #deleteDialog_group_button {
   display: flex;
   justify-content: center;
 }
+
 #deleteDialog button {
   margin: 5px;
   padding: 15px 40px;
@@ -31,18 +32,17 @@
   box-sizing: border-box;
   border-radius: 10px;
 }
+
 #confirmDelete {
   background-color: rgb(206, 0, 0);
   color: white;
 }
 
-/* Äá»‹nh dáº¡ng chá»¯ kÃ½ khi Ä‘Æ°á»£c chá»n */
 #previewContainer .selected {
   border: 2px solid red;
   box-sizing: border-box;
 }
 
-/* Äáº£m báº£o táº¥t cáº£ há»™p thoáº¡i áº©n khi chÆ°a Ä‘Æ°á»£c kÃ­ch hoáº¡t */
 .hidden {
   display: none;
 }
